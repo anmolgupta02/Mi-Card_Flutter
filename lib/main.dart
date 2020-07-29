@@ -11,8 +11,9 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+        debugShowCheckedModeBanner: false,
       home: Scaffold(
-        backgroundColor: Colors.teal,
+        backgroundColor: Colors.blueAccent,
         body: SafeArea(
             child: Column(
               mainAxisAlignment: MainAxisAlignment.center,
@@ -32,14 +33,17 @@ class MyApp extends StatelessWidget {
                   fontWeight: FontWeight.bold
               ),
             ),
-            Text(
-              'AUTOMATION ENGINEER & MOBILE DEV',
-              style: TextStyle(
-                  fontSize: 18.0,
-                  color: Colors.teal[100],
-                  fontWeight: FontWeight.bold,
-                  fontFamily: 'SerifPro',
-                  letterSpacing: 2.2
+            Padding(
+              padding: const EdgeInsets.fromLTRB(20,0,10,0),
+              child: Text(
+                'AUTOMATION ENGINEER & MOBILE DEV',
+                style: TextStyle(
+                    fontSize: 18.0,
+                    color: Colors.teal[100],
+                    fontWeight: FontWeight.bold,
+                    fontFamily: 'Source Sans Pro',
+                    letterSpacing: 2.2
+                ),
               ),
             ),
             SizedBox(
@@ -58,7 +62,7 @@ class MyApp extends StatelessWidget {
                 leading: Icon(
                   Icons.ring_volume,
                   size: 20,
-                  color: Colors.teal,
+                  color: Colors.blueAccent,
                 ),
                 title: Text(
                   '+91 88 600 16 031',
@@ -77,7 +81,7 @@ class MyApp extends StatelessWidget {
               child: ListTile(
                   leading: Icon(Icons.email,
                     size: 20,
-                    color: Colors.teal,
+                    color: Colors.blueAccent,
                   ),
                   title: Text('anmolgupta02@gmail.com',
                     style: TextStyle(

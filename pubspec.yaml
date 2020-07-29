@@ -34,10 +34,11 @@ flutter:
   fonts:
   - family: Damion
     fonts:
-    - asset: Fonts/Damion-Regular.ttf
-  - family: SerifPro
+    - asset: fonts/Damion-Regular.ttf
+  - family: Source Sans Pro
     fonts:
-    - asset: Fonts/SourceSansPro-Regular.ttf
+    - asset: fonts/SourceSansPro-Regular.ttf
+
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.io/assets-and-images/#resolution-aware.
